@@ -55,7 +55,7 @@
 
 
   "cpu": { 
-      "interval": 15,
+      "interval": 5,
       "format": "  {}%",
       "max-length": 10,
       "on-click":"kitty -- btop"
@@ -63,7 +63,7 @@
 
 
   "memory": {
-      "interval": 30,
+      "interval": 15,
       "format": "  {}%",
       "max-length": 10
   },
@@ -86,8 +86,8 @@
 
   "custom/launcher":{
       "format": " ",
-      "on-click": "sh ~/.config/rofi/launchers/type-2/launcher.sh",
-      "on-click-right": "killall rofi"
+      "on-click": "wofi",
+      "on-click-right": "killall wofi"
   },
 
 
@@ -95,18 +95,8 @@
     "format": "{icon}",
     "on-click": "activate",
     "format-icons": {
-      "1":  "",
-      "2":  "",
-      "3":  "",
-      "4":  "",
-      "5":  "",
-      "6":  "",
-      "7":  "",
-      "8":  "",
-      "9":  "",
-      "10": "",
-    },
-    "active": "",
+      "default": "",
+      "active":  ""},
     "sort-by-number": true
   },
 }
