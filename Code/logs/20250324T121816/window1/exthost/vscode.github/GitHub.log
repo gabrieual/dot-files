@@ -1,6 +1,0 @@
-2025-03-24 12:18:19.186 [info] Log level: Info
-2025-03-24 12:18:19.723 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-03-24 12:18:35.093 [info] Log level: Info
-2025-03-24 15:40:48.398 [info] Log level: Info
-2025-03-24 15:40:48.708 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-03-24 16:10:55.533 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for marisfreire/culinarIA: Error: No GitHub authentication session available.

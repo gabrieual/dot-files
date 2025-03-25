@@ -1,4 +1,0 @@
-API_KEY=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
-MONGO_URI=mongodb://127.0.0.1:27017/culinaria
-FLASK_APP=main.py
-SECRET_KEY=0c19907c53eb8a9aca9b3ee133

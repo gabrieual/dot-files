@@ -1,7 +1,0 @@
-2025-03-25 19:40:35.502 [info] Getting Manifest... divyanshuagrawal.competitive-programming-helper
-2025-03-25 19:40:37.308 [info] Installing extension: divyanshuagrawal.competitive-programming-helper {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/gabrieu/.vscode/extensions/extensions.json","path":"/home/gabrieu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
-2025-03-25 19:40:39.095 [info] Extension signature verification result for divyanshuagrawal.competitive-programming-helper: UnknownError. Executed: true. Duration: 21ms.
-2025-03-25 19:40:39.127 [info] Extracted extension to file:///home/gabrieu/.vscode/extensions/divyanshuagrawal.competitive-programming-helper-2025.3.1742934210: divyanshuagrawal.competitive-programming-helper
-2025-03-25 19:40:39.132 [info] Renamed to /home/gabrieu/.vscode/extensions/divyanshuagrawal.competitive-programming-helper-2025.3.1742934210
-2025-03-25 19:40:39.145 [info] Marked extension as removed divyanshuagrawal.competitive-programming-helper-2025.3.1742835724
-2025-03-25 19:40:39.153 [info] Extension installed successfully: divyanshuagrawal.competitive-programming-helper vscode-userdata:/home/gabrieu/.vscode/extensions/extensions.json

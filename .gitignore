@@ -3,3 +3,11 @@ session/*
 VScodium/*
 Cursor/*
 Code/*
+!Code/User/settings.json
+dconf/
+torbrowser/
+pulse/
+vlc/
+*.log
+create-next-app-nodejs/
+
