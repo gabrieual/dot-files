@@ -1,3 +1,6 @@
-2025/02/10-19:38:18.742 d68c Reusing MANIFEST /home/gabrieu/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2025/02/10-19:38:18.747 d68c Recovering log #3
-2025/02/10-19:38:18.747 d68c Reusing old log /home/gabrieu/.config/obsidian/Local Storage/leveldb/000003.log 
+2025/03/25-15:00:12.190 80d6 Reusing MANIFEST /home/gabrieu/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/03/25-15:00:12.195 80d6 Recovering log #3
+2025/03/25-15:00:12.195 80d6 Reusing old log /home/gabrieu/.config/obsidian/Local Storage/leveldb/000003.log 
+2025/03/25-19:57:31.265 80d7 Level-0 table #5: started
+2025/03/25-19:57:31.271 80d7 Level-0 table #5: 11988 bytes OK
+2025/03/25-19:57:31.275 80d7 Delete type=0 #3

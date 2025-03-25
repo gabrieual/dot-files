@@ -1,0 +1,9 @@
+2025-03-25 10:10:33.841 [info] update#setState idle
+2025-03-25 10:11:03.802 [info] update#setState checking for updates
+2025-03-25 10:11:03.807 [info] update#setState available for download
+2025-03-25 10:11:55.373 [info] Extension host with pid 8107 exited with code: 0, signal: unknown.
+2025-03-25 11:07:24.076 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-25 12:22:24.074 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-25 12:23:30.600 [info] Extension host with pid 8662 exited with code: 0, signal: unknown.
+2025-03-25 12:23:30.628 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/editor/common/services/editorSimpleWorkerMain.js#TextEditorWorker
+2025-03-25 12:23:30.642 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8663]: crashed with code 15 and reason 'killed'

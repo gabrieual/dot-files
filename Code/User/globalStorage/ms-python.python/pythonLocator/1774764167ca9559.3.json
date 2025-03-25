@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/gabrieu/Workstation/culinarIA/.venv/bin/python",
+    "prefix": "/home/gabrieu/Workstation/culinarIA/.venv",
+    "version": "3.13.2.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/gabrieu/Workstation/culinarIA/.venv/bin/python",
+      "/home/gabrieu/Workstation/culinarIA/.venv/bin/python3",
+      "/home/gabrieu/Workstation/culinarIA/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

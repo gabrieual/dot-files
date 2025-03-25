@@ -1,0 +1,40 @@
+from app.extensions import mongo
+from datetime import datetime
+
+class Recipe:
+    collection = mongo.db.recipes
+
+    @staticmethod
+    def create_recipe(title:str, 
+                      ingredients:list[str], 
+                      instructions:list[str], 
+                      difficult:str,
+                      time:int,
+                      meal_type:str,
+                      id:int
+                      ) -> dict:
+
+        recipe_data = {
+            "title":        title,
+            "ingredients":  ingredients,
+            "instructions": instructions,
+            "difficult":    difficult,
+            "time":         time,
+            "meal_type":    meal_type,
+            "create_date":  datetime.utcnow(),
+        }
+        Recipe.collection.insert_one(recipe_data)
+        return recipe_data
+
+
+    @staticmethod
+    def find_by_title(title:str):
+        return list(Recipe.collection.find({"title": {"$regex": f"^{title}$", "$options": "i"}}))
+
+    @staticmethod
+    def find_by_tag(tag):
+        return list(Recipe.collection.find({"tags": tag}))
+
+    @staticmethod
+    def delete_recipe(recipe_id:int):
+        Recipe.collection.delete_one({"_id": recipe_id})

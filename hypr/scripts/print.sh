@@ -1,4 +1,4 @@
-DIR="$HOME/Imagens/Screenshots"
+DIR="$HOME/Images/Screenshots"
 FILENAME="screenshot_$(date '+%Y-%m-%d_%H-%M-%S').png"
 FILEPATH="$DIR/$FILENAME"
 

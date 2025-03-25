@@ -1,0 +1,66 @@
+2025-03-25 10:10:36.562 [info] [main] Log level: Info
+2025-03-25 10:10:36.562 [info] [main] Validating found git in: "git"
+2025-03-25 10:10:36.562 [info] [main] Using git "2.49.0" from "git"
+2025-03-25 10:10:36.562 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-25 10:10:36.562 [info] > git rev-parse --show-toplevel [73ms]
+2025-03-25 10:10:36.562 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-25 10:10:36.562 [info] [Model][openRepository] Opened repository: /home/gabrieu/Workstation/culinarIA
+2025-03-25 10:10:36.583 [info] > git config --get commit.template [13ms]
+2025-03-25 10:10:36.584 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-25 10:10:36.611 [info] > git rev-parse --show-toplevel [11ms]
+2025-03-25 10:10:36.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-03-25 10:10:36.634 [info] > git rev-parse --show-toplevel [7ms]
+2025-03-25 10:10:36.663 [info] > git status -z -uall [8ms]
+2025-03-25 10:10:36.664 [info] > git rev-parse --show-toplevel [19ms]
+2025-03-25 10:10:36.674 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-25 10:10:36.676 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-25 10:10:36.676 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-03-25 10:10:36.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-03-25 10:10:36.716 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-03-25 10:10:36.723 [info] > git config --get commit.template [18ms]
+2025-03-25 10:10:36.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-03-25 10:10:36.752 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2025-03-25 10:10:36.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-03-25 10:10:36.760 [info] > git diff --name-status -z --diff-filter=ADMR 0d3188631bc325da9c223ddea4974a572a2a1f21...refs/remotes/origin/main [1ms]
+2025-03-25 10:10:36.781 [info] > git status -z -uall [10ms]
+2025-03-25 10:10:36.782 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-25 10:10:37.192 [info] > git check-ignore -v -z --stdin [35ms]
+2025-03-25 10:10:37.193 [info] > git show --textconv :README.md [12ms]
+2025-03-25 10:10:37.194 [info] > git ls-files --stage -- /home/gabrieu/Workstation/culinarIA/README.md [4ms]
+2025-03-25 10:10:37.205 [info] > git cat-file -s dcd203a73dc15e611565a7b9c9ea516a0f6ca252 [3ms]
+2025-03-25 10:10:37.336 [info] > git blame --root --incremental 0d3188631bc325da9c223ddea4974a572a2a1f21 -- /home/gabrieu/Workstation/culinarIA/README.md [31ms]
+2025-03-25 10:11:06.049 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-25 10:11:06.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.516 [info] [main] Log level: Info
+2025-03-25 10:11:57.516 [info] [main] Validating found git in: "git"
+2025-03-25 10:11:57.516 [info] [main] Using git "2.49.0" from "git"
+2025-03-25 10:11:57.516 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-25 10:11:57.516 [info] > git rev-parse --show-toplevel [11ms]
+2025-03-25 10:11:57.516 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.531 [info] > git rev-parse --show-toplevel [86ms]
+2025-03-25 10:11:57.531 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.559 [info] > git rev-parse --show-toplevel [5ms]
+2025-03-25 10:11:57.559 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.587 [info] > git rev-parse --show-toplevel [19ms]
+2025-03-25 10:11:57.587 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.599 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-25 10:11:57.599 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.609 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-25 10:11:57.609 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.632 [info] > git rev-parse --show-toplevel [15ms]
+2025-03-25 10:11:57.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.645 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-25 10:11:57.645 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.657 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-25 10:11:57.657 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.668 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-25 10:11:57.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.679 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-25 10:11:57.679 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:57.680 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-25 10:11:58.465 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-25 10:11:58.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:11:59.544 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-25 10:11:59.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-25 10:12:09.917 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-25 10:12:09.917 [info] fatal: not a git repository (or any of the parent directories): .git

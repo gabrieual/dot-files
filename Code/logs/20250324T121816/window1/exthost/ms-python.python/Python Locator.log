@@ -1,0 +1,85 @@
+2025-03-24 12:18:18.993 [info] Starting Python Locator /home/gabrieu/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python-env-tools/bin/pet server
+2025-03-24 12:18:19.379 [info] Discovered env: /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 12:18:19.381 [info] Discovered env: /bin/python
+2025-03-24 12:18:19.381 [info] Discovered env: /usr/bin/python
+2025-03-24 12:18:19.381 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.381 [info] Discovered env: /usr/sbin/python
+2025-03-24 12:18:19.382 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.382 [info] Discovered env: /sbin/python
+2025-03-24 12:18:19.382 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.382 [info] Discovered env: /usr/sbin/python3
+2025-03-24 12:18:19.383 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.383 [info] Discovered env: /sbin/python3
+2025-03-24 12:18:19.383 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.383 [info] Discovered env: /usr/sbin/python3.13
+2025-03-24 12:18:19.383 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-03-24 12:18:19.383 [info] Discovered env: /sbin/python3.13
+2025-03-24 12:18:19.384 [info] Locator Conda took 96.44751ms
+2025-03-24 12:18:19.384 [info] Locator Homebrew took 210.013µs
+2025-03-24 12:18:19.384 [info] Locator LinuxGlobal took 88.836617ms
+2025-03-24 12:18:19.384 [info] Locator PipEnv took 309.519µs
+2025-03-24 12:18:19.384 [info] Locator Pixi took 43.712µs
+2025-03-24 12:18:19.384 [info] Locator Poetry took 683.47µs
+2025-03-24 12:18:19.384 [info] Locator PyEnv took 177.562µs
+2025-03-24 12:18:19.384 [info] Locator Venv took 28.834µs
+2025-03-24 12:18:19.384 [info] Locator VirtualEnv took 116.839µs
+2025-03-24 12:18:19.384 [info] Locator VirtualEnvWrapper took 105.938µs
+2025-03-24 12:18:19.384 [info] Locator GlobalVirtualEnvs took 62.427µs
+2025-03-24 12:18:19.384 [info] Locator Locators took 96.93341ms
+2025-03-24 12:18:19.384 [info] Locator Path took 222.531732ms
+2025-03-24 12:18:19.384 [info] Locator Workspaces took 24.644042ms
+2025-03-24 12:18:19.384 [info] Refresh completed in 222ms
+2025-03-24 12:18:19.387 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:40:48.394 [info] Starting Python Locator /home/gabrieu/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python-env-tools/bin/pet server
+2025-03-24 15:40:48.736 [info] Discovered env: /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:40:48.738 [info] Discovered env: /bin/python
+2025-03-24 15:40:48.738 [info] Discovered env: /usr/bin/python
+2025-03-24 15:40:48.738 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.738 [info] Discovered env: /usr/sbin/python
+2025-03-24 15:40:48.739 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.739 [info] Discovered env: /sbin/python
+2025-03-24 15:40:48.739 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.739 [info] Discovered env: /usr/sbin/python3
+2025-03-24 15:40:48.739 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.739 [info] Discovered env: /sbin/python3
+2025-03-24 15:40:48.739 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.740 [info] Discovered env: /usr/sbin/python3.13
+2025-03-24 15:40:48.740 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-03-24 15:40:48.740 [info] Discovered env: /sbin/python3.13
+2025-03-24 15:40:48.740 [info] Locator Conda took 99.612121ms
+2025-03-24 15:40:48.740 [info] Locator Homebrew took 118.069µs
+2025-03-24 15:40:48.740 [info] Locator LinuxGlobal took 91.531238ms
+2025-03-24 15:40:48.740 [info] Locator PipEnv took 37.049µs
+2025-03-24 15:40:48.740 [info] Locator Pixi took 31.619µs
+2025-03-24 15:40:48.740 [info] Locator Poetry took 352.725µs
+2025-03-24 15:40:48.741 [info] Locator PyEnv took 372.361µs
+2025-03-24 15:40:48.741 [info] Locator Venv took 25.107µs
+2025-03-24 15:40:48.741 [info] Locator VirtualEnv took 73.036µs
+2025-03-24 15:40:48.741 [info] Locator VirtualEnvWrapper took 65.742µs
+2025-03-24 15:40:48.741 [info] Locator GlobalVirtualEnvs took 705.74µs
+2025-03-24 15:40:48.741 [info] Locator Locators took 100.057548ms
+2025-03-24 15:40:48.741 [info] Locator Path took 207.626782ms
+2025-03-24 15:40:48.741 [info] Locator Workspaces took 17.322141ms
+2025-03-24 15:40:48.741 [info] Refresh completed in 207ms
+2025-03-24 15:40:48.742 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:45:19.721 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:46:18.570 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:47:29.775 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:48:22.243 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:49:02.172 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:54:07.428 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:54:45.306 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 15:56:58.302 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:06:40.218 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:09:40.149 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:12:20.570 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:13:08.108 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:13:39.542 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:14:11.522 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:15:56.295 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:16:47.503 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:19:21.897 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:20:25.213 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 16:21:25.499 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 17:00:28.711 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python
+2025-03-24 17:02:08.292 [info] Resolved Python Environment /home/gabrieu/Workstation/culinarIA/.venv/bin/python

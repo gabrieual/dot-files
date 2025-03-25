@@ -1,9 +1,8 @@
 * {
   border: none;
-  border-radius: 8;
   font-family: "JetbrainsMono Nerd Font";
-  font-size: 13px;
-  min-height: 16px;
+  font-size: 11px;
+  min-height: 8px;
 }
 
 window#waybar {
@@ -14,19 +13,24 @@ window#waybar.hidden {
   opacity: 0.2;
 }
 
+window#waybar.empty #window {
+ background:none;
+}
+
 #window {
-  margin-top: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: bold;
+  margin-top: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
   border-radius: 10px;
   transition: none;
-  color: transparent;
-  background: transparent;
+  color: #fbf1c7;
+  background: #282828;
 }
 
 #workspaces {
-  margin-top: 6px;
-  margin-left: 0px;
+  margin-top: 2px;
+  margin-left: 4px;
   font-size: 20px;
   min-width: 37px;
   font-weight: 500;
@@ -61,10 +65,11 @@ window#waybar.hidden {
 }
 
 #network {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
@@ -74,10 +79,11 @@ window#waybar.hidden {
 }
 
 #wireplumber {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
@@ -86,10 +92,11 @@ window#waybar.hidden {
 }
 
 #battery {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
@@ -115,10 +122,11 @@ window#waybar.hidden {
 }
 
 #backlight {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
@@ -127,11 +135,12 @@ window#waybar.hidden {
 }
 
 #clock {
-  margin-top: 6px;
-  margin-left: 8px;
-  margin-right: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
@@ -141,11 +150,12 @@ window#waybar.hidden {
 }
 
 #memory {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 6px;
   margin-bottom: 0px;
-  padding-right: 10px;
+  padding-right: 6px;
   border-radius: 10px;
   transition: none;
   color: #161320;
@@ -154,11 +164,12 @@ window#waybar.hidden {
 }
 
 #cpu {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 6px;
   margin-bottom: 0px;
-  padding-right: 10px;
+  padding-right: 6px;
   border-radius: 10px;
   transition: none;
   color: #161320;
@@ -168,10 +179,10 @@ window#waybar.hidden {
 
 #custom-launcher {
   font-size: 16px;
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 5px;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 3px;
   border-radius: 10px;
   transition: none;
   color: #fe8019;
@@ -180,10 +191,11 @@ window#waybar.hidden {
 }
 
 #custom-media {
-  margin-top: 6px;
-  margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;

@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetbrainsMono Nerd Font', 'Arial', monospace",
+    "editor.fontLigatures": true,
+    "workbench.settings.applyToAllProfiles": [
+
+        "editor.fontFamily"
+    ],
+    "editor.fontSize": 13,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.dropIntoEditor.preferences": [
+
+        
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.sideBar.location": "right"
+}

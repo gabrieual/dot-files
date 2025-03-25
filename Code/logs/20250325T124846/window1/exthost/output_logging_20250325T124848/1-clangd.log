@@ -1,0 +1,216 @@
+I[12:48:48.520] clangd version 19.1.7
+I[12:48:48.520] Features: linux
+I[12:48:48.520] PID: 17161
+I[12:48:48.520] Working directory: /home/gabrieu/Workstation/LE-EDOO
+I[12:48:48.520] argv[0]: /usr/bin/clangd
+I[12:48:48.520] Starting LSP over stdin/stdout
+I[12:48:48.520] <-- initialize(0)
+I[12:48:48.521] --> reply:initialize(0) 0 ms
+I[12:48:48.524] <-- initialized
+I[12:48:48.531] <-- textDocument/didOpen
+I[12:48:48.532] Failed to find compilation database for /home/gabrieu/Workstation/LE-EDOO/LE3/test.cpp
+I[12:48:48.532] ASTWorker building file /home/gabrieu/Workstation/LE-EDOO/LE3/test.cpp version 1 with command clangd fallback
+[/home/gabrieu/Workstation/LE-EDOO/LE3]
+/usr/bin/clang -resource-dir=/usr/lib/clang/19 -- /home/gabrieu/Workstation/LE-EDOO/LE3/test.cpp
+I[12:48:48.533] --> textDocument/clangd.fileStatus
+I[12:48:48.539] Built preamble of size 238704 for file /home/gabrieu/Workstation/LE-EDOO/LE3/test.cpp version 1 in 0.01 seconds
+I[12:48:48.539] --> workspace/semanticTokens/refresh(0)
+I[12:48:48.540] Indexing c++17 standard library in the context of /home/gabrieu/Workstation/LE-EDOO/LE3/test.cpp
+I[12:48:48.542] <-- reply(0)
+I[12:48:48.545] --> textDocument/publishDiagnostics
+I[12:48:48.545] --> textDocument/inactiveRegions
+I[12:48:48.545] --> textDocument/clangd.fileStatus
+I[12:48:48.567] <-- textDocument/documentLink(1)
+I[12:48:48.567] --> reply:textDocument/documentLink(1) 0 ms
+I[12:48:48.567] --> textDocument/clangd.fileStatus
+I[12:48:48.575] <-- textDocument/inlayHint(2)
+I[12:48:48.575] <-- textDocument/semanticTokens/full(3)
+I[12:48:48.575] --> reply:textDocument/inlayHint(2) 0 ms
+I[12:48:48.575] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[12:48:48.575] --> textDocument/clangd.fileStatus
+I[12:48:48.650] <-- $/setTrace
+I[12:48:48.650] unhandled notification $/setTrace
+I[12:48:48.808] <-- $/setTrace
+I[12:48:48.808] unhandled notification $/setTrace
+I[12:48:48.808] <-- textDocument/foldingRange(4)
+I[12:48:48.808] --> reply:textDocument/foldingRange(4) 0 ms
+I[12:48:48.914] <-- textDocument/documentLink(5)
+I[12:48:48.914] --> reply:textDocument/documentLink(5) 0 ms
+I[12:48:48.914] --> textDocument/clangd.fileStatus
+I[12:48:48.933] <-- textDocument/documentSymbol(6)
+I[12:48:48.933] --> reply:textDocument/documentSymbol(6) 0 ms
+I[12:48:48.933] --> textDocument/clangd.fileStatus
+I[12:48:49.144] <-- $/setTrace
+I[12:48:49.144] unhandled notification $/setTrace
+I[12:48:49.157] <-- $/setTrace
+I[12:48:49.157] unhandled notification $/setTrace
+I[12:48:50.079] <-- $/setTrace
+I[12:48:50.079] unhandled notification $/setTrace
+I[12:48:50.088] <-- textDocument/documentSymbol(7)
+I[12:48:50.088] --> reply:textDocument/documentSymbol(7) 0 ms
+I[12:48:50.088] --> textDocument/clangd.fileStatus
+I[12:48:50.117] Indexed c++17 standard library (incomplete due to errors): 14360 symbols, 1909 filtered
+I[12:48:50.133] <-- textDocument/documentLink(8)
+I[12:48:50.133] --> reply:textDocument/documentLink(8) 0 ms
+I[12:48:50.133] --> textDocument/clangd.fileStatus
+I[12:48:51.073] <-- $/setTrace
+I[12:48:51.073] unhandled notification $/setTrace
+I[12:52:38.522] <-- textDocument/inlayHint(9)
+I[12:52:38.522] --> reply:textDocument/inlayHint(9) 0 ms
+I[12:52:38.522] --> textDocument/clangd.fileStatus
+I[12:52:38.614] <-- textDocument/inlayHint(10)
+I[12:52:38.614] --> reply:textDocument/inlayHint(10) 0 ms
+I[12:52:38.614] --> textDocument/clangd.fileStatus
+I[12:52:38.655] <-- textDocument/inlayHint(11)
+I[12:52:38.655] --> reply:textDocument/inlayHint(11) 0 ms
+I[12:52:38.655] --> textDocument/clangd.fileStatus
+I[12:52:38.713] <-- textDocument/inlayHint(12)
+I[12:52:38.713] --> reply:textDocument/inlayHint(12) 0 ms
+I[12:52:38.713] --> textDocument/clangd.fileStatus
+I[12:52:38.776] <-- textDocument/inlayHint(13)
+I[12:52:38.776] --> reply:textDocument/inlayHint(13) 0 ms
+I[12:52:38.776] --> textDocument/clangd.fileStatus
+I[12:52:38.851] <-- textDocument/inlayHint(14)
+I[12:52:38.851] --> reply:textDocument/inlayHint(14) 0 ms
+I[12:52:38.851] --> textDocument/clangd.fileStatus
+I[12:52:40.259] <-- textDocument/inlayHint(15)
+I[12:52:40.259] --> reply:textDocument/inlayHint(15) 0 ms
+I[12:52:40.259] --> textDocument/clangd.fileStatus
+I[12:52:40.326] <-- textDocument/inlayHint(16)
+I[12:52:40.327] --> reply:textDocument/inlayHint(16) 0 ms
+I[12:52:40.327] --> textDocument/clangd.fileStatus
+I[12:52:40.427] <-- textDocument/inlayHint(17)
+I[12:52:40.428] --> reply:textDocument/inlayHint(17) 0 ms
+I[12:52:40.428] --> textDocument/clangd.fileStatus
+I[12:52:40.552] <-- textDocument/inlayHint(18)
+I[12:52:40.552] --> reply:textDocument/inlayHint(18) 0 ms
+I[12:52:40.552] --> textDocument/clangd.fileStatus
+I[12:52:40.611] <-- textDocument/inlayHint(19)
+I[12:52:40.611] --> reply:textDocument/inlayHint(19) 0 ms
+I[12:52:40.611] --> textDocument/clangd.fileStatus
+I[12:52:40.858] <-- textDocument/inlayHint(20)
+I[12:52:40.858] --> reply:textDocument/inlayHint(20) 0 ms
+I[12:52:40.858] --> textDocument/clangd.fileStatus
+I[12:52:40.928] <-- textDocument/inlayHint(21)
+I[12:52:40.928] --> reply:textDocument/inlayHint(21) 0 ms
+I[12:52:40.928] --> textDocument/clangd.fileStatus
+I[12:52:40.988] <-- textDocument/inlayHint(22)
+I[12:52:40.988] --> reply:textDocument/inlayHint(22) 0 ms
+I[12:52:40.988] --> textDocument/clangd.fileStatus
+I[12:52:41.046] <-- textDocument/inlayHint(23)
+I[12:52:41.046] --> reply:textDocument/inlayHint(23) 0 ms
+I[12:52:41.046] --> textDocument/clangd.fileStatus
+I[12:52:41.112] <-- textDocument/inlayHint(24)
+I[12:52:41.112] --> reply:textDocument/inlayHint(24) 0 ms
+I[12:52:41.112] --> textDocument/clangd.fileStatus
+I[12:52:41.179] <-- textDocument/inlayHint(25)
+I[12:52:41.180] --> reply:textDocument/inlayHint(25) 0 ms
+I[12:52:41.180] --> textDocument/clangd.fileStatus
+I[12:52:41.241] <-- textDocument/inlayHint(26)
+I[12:52:41.242] --> reply:textDocument/inlayHint(26) 0 ms
+I[12:52:41.242] --> textDocument/clangd.fileStatus
+I[12:52:41.380] <-- textDocument/inlayHint(27)
+I[12:52:41.380] --> reply:textDocument/inlayHint(27) 0 ms
+I[12:52:41.380] --> textDocument/clangd.fileStatus
+I[12:52:41.468] <-- textDocument/inlayHint(28)
+I[12:52:41.468] --> reply:textDocument/inlayHint(28) 0 ms
+I[12:52:41.468] --> textDocument/clangd.fileStatus
+I[12:52:41.527] <-- textDocument/inlayHint(29)
+I[12:52:41.527] --> reply:textDocument/inlayHint(29) 0 ms
+I[12:52:41.527] --> textDocument/clangd.fileStatus
+I[12:52:41.593] <-- textDocument/inlayHint(30)
+I[12:52:41.594] --> reply:textDocument/inlayHint(30) 0 ms
+I[12:52:41.594] --> textDocument/clangd.fileStatus
+I[12:52:41.655] <-- textDocument/inlayHint(31)
+I[12:52:41.655] --> reply:textDocument/inlayHint(31) 0 ms
+I[12:52:41.655] --> textDocument/clangd.fileStatus
+I[12:52:41.708] <-- textDocument/inlayHint(32)
+I[12:52:41.708] --> reply:textDocument/inlayHint(32) 0 ms
+I[12:52:41.708] --> textDocument/clangd.fileStatus
+I[12:52:41.808] <-- textDocument/inlayHint(33)
+I[12:52:41.808] --> reply:textDocument/inlayHint(33) 0 ms
+I[12:52:41.808] --> textDocument/clangd.fileStatus
+I[12:52:41.880] <-- textDocument/inlayHint(34)
+I[12:52:41.881] --> reply:textDocument/inlayHint(34) 0 ms
+I[12:52:41.881] --> textDocument/clangd.fileStatus
+I[12:52:41.944] <-- textDocument/inlayHint(35)
+I[12:52:41.945] --> reply:textDocument/inlayHint(35) 0 ms
+I[12:52:41.945] --> textDocument/clangd.fileStatus
+I[12:52:42.016] <-- textDocument/inlayHint(36)
+I[12:52:42.016] --> reply:textDocument/inlayHint(36) 0 ms
+I[12:52:42.016] --> textDocument/clangd.fileStatus
+I[12:52:42.071] <-- textDocument/inlayHint(37)
+I[12:52:42.071] --> reply:textDocument/inlayHint(37) 0 ms
+I[12:52:42.071] --> textDocument/clangd.fileStatus
+I[12:52:43.152] <-- textDocument/inlayHint(38)
+I[12:52:43.152] --> reply:textDocument/inlayHint(38) 0 ms
+I[12:52:43.153] --> textDocument/clangd.fileStatus
+I[12:52:43.229] <-- textDocument/inlayHint(39)
+I[12:52:43.229] --> reply:textDocument/inlayHint(39) 0 ms
+I[12:52:43.229] --> textDocument/clangd.fileStatus
+I[12:52:43.303] <-- textDocument/inlayHint(40)
+I[12:52:43.303] --> reply:textDocument/inlayHint(40) 0 ms
+I[12:52:43.303] --> textDocument/clangd.fileStatus
+I[12:52:43.373] <-- textDocument/inlayHint(41)
+I[12:52:43.373] --> reply:textDocument/inlayHint(41) 0 ms
+I[12:52:43.373] --> textDocument/clangd.fileStatus
+I[12:52:43.436] <-- textDocument/inlayHint(42)
+I[12:52:43.437] --> reply:textDocument/inlayHint(42) 0 ms
+I[12:52:43.437] --> textDocument/clangd.fileStatus
+I[12:52:43.508] <-- textDocument/inlayHint(43)
+I[12:52:43.509] --> reply:textDocument/inlayHint(43) 0 ms
+I[12:52:43.509] --> textDocument/clangd.fileStatus
+I[12:52:43.583] <-- textDocument/inlayHint(44)
+I[12:52:43.583] --> reply:textDocument/inlayHint(44) 0 ms
+I[12:52:43.583] --> textDocument/clangd.fileStatus
+I[12:52:43.647] <-- textDocument/inlayHint(45)
+I[12:52:43.647] --> reply:textDocument/inlayHint(45) 0 ms
+I[12:52:43.647] --> textDocument/clangd.fileStatus
+I[12:52:43.707] <-- textDocument/inlayHint(46)
+I[12:52:43.708] --> reply:textDocument/inlayHint(46) 0 ms
+I[12:52:43.708] --> textDocument/clangd.fileStatus
+I[12:52:43.911] <-- textDocument/inlayHint(47)
+I[12:52:43.911] --> reply:textDocument/inlayHint(47) 0 ms
+I[12:52:43.911] --> textDocument/clangd.fileStatus
+I[12:52:43.957] <-- textDocument/inlayHint(48)
+I[12:52:43.957] --> reply:textDocument/inlayHint(48) 0 ms
+I[12:52:43.957] --> textDocument/clangd.fileStatus
+I[12:52:44.263] <-- textDocument/inlayHint(49)
+I[12:52:44.264] --> reply:textDocument/inlayHint(49) 0 ms
+I[12:52:44.264] --> textDocument/clangd.fileStatus
+I[12:52:44.308] <-- textDocument/inlayHint(50)
+I[12:52:44.308] --> reply:textDocument/inlayHint(50) 0 ms
+I[12:52:44.308] --> textDocument/clangd.fileStatus
+I[12:52:44.619] <-- textDocument/inlayHint(51)
+I[12:52:44.619] --> reply:textDocument/inlayHint(51) 0 ms
+I[12:52:44.619] --> textDocument/clangd.fileStatus
+I[12:52:45.332] <-- textDocument/inlayHint(52)
+I[12:52:45.332] --> reply:textDocument/inlayHint(52) 0 ms
+I[12:52:45.332] --> textDocument/clangd.fileStatus
+I[12:52:45.432] <-- textDocument/inlayHint(53)
+I[12:52:45.432] --> reply:textDocument/inlayHint(53) 0 ms
+I[12:52:45.432] --> textDocument/clangd.fileStatus
+I[12:52:45.497] <-- textDocument/inlayHint(54)
+I[12:52:45.497] --> reply:textDocument/inlayHint(54) 0 ms
+I[12:52:45.497] --> textDocument/clangd.fileStatus
+I[12:52:45.559] <-- textDocument/inlayHint(55)
+I[12:52:45.559] --> reply:textDocument/inlayHint(55) 0 ms
+I[12:52:45.559] --> textDocument/clangd.fileStatus
+I[12:52:45.607] <-- textDocument/inlayHint(56)
+I[12:52:45.608] --> reply:textDocument/inlayHint(56) 0 ms
+I[12:52:45.608] --> textDocument/clangd.fileStatus
+I[12:52:45.831] <-- textDocument/inlayHint(57)
+I[12:52:45.832] --> reply:textDocument/inlayHint(57) 0 ms
+I[12:52:45.832] --> textDocument/clangd.fileStatus
+I[12:52:49.831] <-- textDocument/inlayHint(58)
+I[12:52:49.831] --> reply:textDocument/inlayHint(58) 0 ms
+I[12:52:49.831] --> textDocument/clangd.fileStatus
+I[12:52:49.875] <-- textDocument/inlayHint(59)
+I[12:52:49.875] --> reply:textDocument/inlayHint(59) 0 ms
+I[12:52:49.875] --> textDocument/clangd.fileStatus
+I[12:52:49.941] <-- textDocument/inlayHint(60)
+I[12:52:49.941] --> reply:textDocument/inlayHint(60) 0 ms
+I[12:52:49.941] --> textDocument/clangd.fileStatus
+I[12:52:50.021] <-- textDocument/inlayHint(61)
+I[12:52:50.021] --> reply:textDocument/inlayHint(61) 0 ms
+I[12:52:50.021] --> textDocument/clangd.fileStatus

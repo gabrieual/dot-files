@@ -1,0 +1,18 @@
+2025-03-25 14:13:45.728 [info] Extension host with pid 26756 started
+2025-03-25 14:13:45.728 [info] Skipping acquiring lock for /home/gabrieu/.config/Code/User/workspaceStorage/910592cb3fef5f3ab9246e487cbc7272.
+2025-03-25 14:13:45.910 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-03-25 14:13:45.932 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-25 14:13:45.946 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2025-03-25 14:13:46.021 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-03-25 14:13:46.308 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-25 14:13:46.310 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2025-03-25 14:13:46.362 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-25 14:13:46.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-25 14:13:46.538 [info] Eager extensions activated
+2025-03-25 14:13:46.569 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-25 14:13:46.572 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-25 14:13:46.588 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-03-25 14:13:46.617 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-03-25 14:30:14.926 [info] ExtensionService#_doActivateExtension sumneko.lua, startup: false, activationEvent: 'onLanguage:lua'
+2025-03-25 14:57:49.096 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-25 14:57:49.109 [info] Extension host with pid 26756 exiting with code 0

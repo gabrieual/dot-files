@@ -1,7 +1,7 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher", "backlight", "wireplumber"],
-	"modules-center": ["hyprland/workspaces"],
+	"modules-left": ["custom/launcher", "hyprland/workspaces", "backlight", "wireplumber",],
+	"modules-center": ["hyprland/window"],
 	"modules-right": ["network", "cpu", "memory", "battery", "clock"],
 	
   "wireplumber": {
@@ -41,7 +41,7 @@
           "warning": 30,
           "critical": 20
       },
-      "format": "{icon}  {capacity}%",
+      "format": "{icon} {capacity}%",
       "format-time": "{H} h {M} min",
       "format-alt": "{icon} {time}",
       "format-icons": ["", "", "", "", ""]
@@ -49,14 +49,14 @@
 
 
   "clock": {
-      "format": "{:%H:%M}",
-      "format-alt": "{:%d-%m-%Y}"
+      "format": " {:%d-%m %H:%M}",
+      "format-alt": " {:%d-%m-%Y}"
   },
 
 
   "cpu": { 
       "interval": 5,
-      "format": "  {}%",
+      "format": " {}%",
       "max-length": 10,
       "on-click":"kitty -- btop"
   },
@@ -64,7 +64,7 @@
 
   "memory": {
       "interval": 15,
-      "format": "  {}%",
+      "format": " {}%",
       "max-length": 10
   },
 
@@ -86,8 +86,8 @@
 
   "custom/launcher":{
       "format": " ",
-      "on-click": "wofi",
-      "on-click-right": "killall wofi"
+      "on-click": "~/.config/hypr/scripts/toggle-wofi.sh",
+      "on-click-right": "pkill wofi"
   },
 
 
@@ -99,4 +99,12 @@
       "active":  ""},
     "sort-by-number": true
   },
-}
+
+  "hyprland/window": {
+    "format": "{title}",
+    "on-empty": "hidden",
+    "tooltip": false,
+    "max-length": 85 
+  },
+},
+

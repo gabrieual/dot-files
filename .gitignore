@@ -1,2 +1,5 @@
-*obsidian/
-*session/
+obsidian/*
+session/*
+VScodium/*
+Cursor/*
+Code/*

@@ -1,0 +1,83 @@
+I[10:11:06.761] clangd version 19.1.7
+I[10:11:06.761] Features: linux
+I[10:11:06.761] PID: 8616
+I[10:11:06.761] Working directory: /home/gabrieu/Workstation/culinarIA
+I[10:11:06.761] argv[0]: /usr/bin/clangd
+I[10:11:06.762] Starting LSP over stdin/stdout
+I[10:11:06.764] <-- initialize(0)
+I[10:11:06.768] --> reply:initialize(0) 4 ms
+I[10:11:06.770] <-- initialized
+I[10:11:06.776] <-- textDocument/didOpen
+I[10:11:06.778] <-- textDocument/documentSymbol(1)
+I[10:11:06.778] <-- textDocument/codeAction(2)
+I[10:11:06.778] Failed to find compilation database for /home/gabrieu/Workstation/LE-EDOO/LE3/b.cpp
+I[10:11:06.779] ASTWorker building file /home/gabrieu/Workstation/LE-EDOO/LE3/b.cpp version 1 with command clangd fallback
+[/home/gabrieu/Workstation/LE-EDOO/LE3]
+/usr/bin/clang -resource-dir=/usr/lib/clang/19 -- /home/gabrieu/Workstation/LE-EDOO/LE3/b.cpp
+I[10:11:06.782] <-- textDocument/documentLink(3)
+I[10:11:06.786] <-- textDocument/inlayHint(4)
+I[10:11:06.792] --> textDocument/clangd.fileStatus
+I[10:11:06.978] <-- textDocument/foldingRange(5)
+I[10:11:06.980] --> reply:textDocument/foldingRange(5) 1 ms
+I[10:11:07.109] Built preamble of size 4018064 for file /home/gabrieu/Workstation/LE-EDOO/LE3/b.cpp version 1 in 0.32 seconds
+I[10:11:07.110] --> workspace/semanticTokens/refresh(0)
+I[10:11:07.110] Indexing c++17 standard library in the context of /home/gabrieu/Workstation/LE-EDOO/LE3/b.cpp
+I[10:11:07.111] <-- reply(0)
+I[10:11:07.113] <-- textDocument/semanticTokens/full(6)
+I[10:11:07.142] --> textDocument/publishDiagnostics
+I[10:11:07.142] --> textDocument/inactiveRegions
+I[10:11:07.142] --> reply:textDocument/documentSymbol(1) 364 ms
+I[10:11:07.142] --> reply:textDocument/codeAction(2) 364 ms
+I[10:11:07.142] --> reply:textDocument/documentLink(3) 360 ms
+I[10:11:07.143] --> reply:textDocument/inlayHint(4) 356 ms
+I[10:11:07.143] --> reply:textDocument/semanticTokens/full(6) 29 ms
+I[10:11:07.143] --> textDocument/clangd.fileStatus
+I[10:11:08.349] <-- textDocument/codeAction(7)
+I[10:11:08.349] --> reply:textDocument/codeAction(7) 0 ms
+I[10:11:08.349] --> textDocument/clangd.fileStatus
+I[10:11:08.600] Indexed c++17 standard library (incomplete due to errors): 14360 symbols, 1909 filtered
+I[10:11:10.014] <-- textDocument/codeAction(8)
+I[10:11:10.014] --> reply:textDocument/codeAction(8) 0 ms
+I[10:11:10.014] --> textDocument/clangd.fileStatus
+I[10:11:11.494] <-- textDocument/codeAction(9)
+I[10:11:11.494] --> reply:textDocument/codeAction(9) 0 ms
+I[10:11:11.494] --> textDocument/clangd.fileStatus
+I[10:11:11.947] <-- textDocument/codeAction(10)
+I[10:11:11.947] --> reply:textDocument/codeAction(10) 0 ms
+I[10:11:11.947] --> textDocument/clangd.fileStatus
+I[10:11:16.136] <-- textDocument/codeAction(11)
+I[10:11:16.136] --> reply:textDocument/codeAction(11) 0 ms
+I[10:11:16.136] --> textDocument/clangd.fileStatus
+I[10:11:18.051] <-- textDocument/hover(12)
+I[10:11:18.051] --> reply:textDocument/hover(12) 0 ms
+I[10:11:18.051] --> textDocument/clangd.fileStatus
+I[10:11:18.384] <-- textDocument/hover(13)
+I[10:11:18.384] --> reply:textDocument/hover(13) 0 ms
+I[10:11:18.384] --> textDocument/clangd.fileStatus
+I[10:11:19.528] <-- textDocument/hover(14)
+I[10:11:19.528] --> reply:textDocument/hover(14) 0 ms
+I[10:11:19.529] --> textDocument/clangd.fileStatus
+I[10:11:27.785] <-- textDocument/hover(15)
+I[10:11:27.785] --> reply:textDocument/hover(15) 0 ms
+I[10:11:27.785] --> textDocument/clangd.fileStatus
+I[10:11:28.962] <-- textDocument/hover(16)
+I[10:11:28.962] --> reply:textDocument/hover(16) 0 ms
+I[10:11:28.962] --> textDocument/clangd.fileStatus
+I[10:11:36.422] <-- textDocument/inlayHint(17)
+I[10:11:36.422] --> reply:textDocument/inlayHint(17) 0 ms
+I[10:11:36.422] --> textDocument/clangd.fileStatus
+I[10:11:36.870] <-- textDocument/inlayHint(18)
+I[10:11:36.870] --> reply:textDocument/inlayHint(18) 0 ms
+I[10:11:36.870] --> textDocument/clangd.fileStatus
+I[10:11:37.401] <-- textDocument/inlayHint(19)
+I[10:11:37.402] --> reply:textDocument/inlayHint(19) 0 ms
+I[10:11:37.402] --> textDocument/clangd.fileStatus
+I[10:11:37.847] <-- textDocument/inlayHint(20)
+I[10:11:37.847] --> reply:textDocument/inlayHint(20) 0 ms
+I[10:11:37.847] --> textDocument/clangd.fileStatus
+I[10:11:38.261] <-- textDocument/inlayHint(21)
+I[10:11:38.261] --> reply:textDocument/inlayHint(21) 0 ms
+I[10:11:38.261] --> textDocument/clangd.fileStatus
+I[10:11:38.554] <-- textDocument/inlayHint(22)
+I[10:11:38.554] --> reply:textDocument/inlayHint(22) 0 ms
+I[10:11:38.554] --> textDocument/clangd.fileStatus

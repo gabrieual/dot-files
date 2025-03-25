@@ -1,0 +1,91 @@
+#include <iostream>
+#include <ostream>
+#include <string>
+#include <vector>
+#define mod 10
+
+class Dict{
+private:
+    std::vector<std::string> arr[10];
+    int load;
+public:
+    
+    Dict(){
+        load = 0;
+        for (int i = 0; i < mod; i++) {
+            arr[i] = std::vector<std::string>();
+        }
+    }
+
+    int getLoad(){return load;}
+
+    int hash(int key){return key % mod;}
+
+    std::string operator[](int key){
+        int hashed_key = hash(key);
+        std::string result = "";
+        for (size_t i = 0; i < arr[hashed_key].size(); i += 2) {
+            if (i > 0) result += ",";
+            result += "(" + arr[hashed_key][i] + "," + arr[hashed_key][i+1] + ")";
+        }
+        return result;
+    }
+
+    void add(int key, std::string value){
+        int hashed_key = hash(key);
+        // Verificar se a chave já existe
+        for (size_t i = 0; i < arr[hashed_key].size(); i += 2) {
+            if (arr[hashed_key][i] == std::to_string(key)) {
+                return; // Chave já existe, ignorar operação
+            }
+        }
+        // Adicionar nova chave-valor
+        arr[hashed_key].push_back(std::to_string(key));
+        arr[hashed_key].push_back(value);
+        load += 1;
+    }
+
+    void del(int key){
+        int hashed_key = hash(key);
+        for (size_t i = 0; i < arr[hashed_key].size(); i += 2) {
+            if (arr[hashed_key][i] == std::to_string(key)) {
+
+                arr[hashed_key].erase(arr[hashed_key].begin() + i);
+                arr[hashed_key].erase(arr[hashed_key].begin() + i);
+                load -= 1;
+                return;
+            }
+        }
+    }
+};
+
+int main(){
+    int c; std::cin >> c;
+    for (int i=0;i<c;i++){
+        int n; std::cin >> n;
+        
+        Dict dicionary;
+        try {
+            for (int j=0; j<n; j++) {
+                std::string command, value;
+                int key;
+                std::cin >> command >> key;
+
+                if (command == "add"){
+                    std::cin >> value;
+                    dicionary.add(key, value);
+                }else if (command == "del") {
+                    dicionary.del(key);
+                }else {throw "comando desconhecido";}
+            }
+            std::cout << "caso " << i+1 << ":" << std::endl;
+            std::cout << "alpha = " << dicionary.getLoad()<<"/10" << std::endl;
+
+            for (int z=0; z<10; z++) {
+                std::cout << z << ":" << dicionary[z] << std::endl;
+            }        
+        }catch (char* erro){
+            std::cout << erro;
+    }
+    }
+}

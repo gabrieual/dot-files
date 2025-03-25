@@ -1,0 +1,19 @@
+2025-03-24 10:20:16.025 [info] (Client) Pylance async client (2025.3.2) started with python extension (2025.2.0)
+2025-03-24 10:20:16.070 [info] [Info  - 10:20:16 AM] (4143) Server root directory: file:///home/gabrieu/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist
+2025-03-24 10:20:16.070 [info] [Info  - 10:20:16 AM] (4143) Pylance language server 2025.3.2 (pyright version 1.1.396, commit 3e2236a7) starting
+2025-03-24 10:20:16.070 [info] [Info  - 10:20:16 AM] (4143) Starting service instance "culinarIA"
+2025-03-24 10:20:16.120 [info] [Info  - 10:20:16 AM] (4143) Setting environmentName for service "culinarIA": "3.13.2 (.venv venv)"
+2025-03-24 10:20:16.121 [info] [Info  - 10:20:16 AM] (4143) Setting pythonPath for service "culinarIA": "/home/gabrieu/Workstation/culinarIA/.venv/bin/python"
+2025-03-24 10:20:16.143 [info] [Info  - 10:20:16 AM] (4143) No include entries specified; assuming /home/gabrieu/Workstation/culinarIA
+2025-03-24 10:20:16.151 [info] [Info  - 10:20:16 AM] (4143) Auto-excluding **/node_modules
+2025-03-24 10:20:16.161 [info] [Info  - 10:20:16 AM] (4143) Auto-excluding **/__pycache__
+2025-03-24 10:20:16.162 [info] [Info  - 10:20:16 AM] (4143) Auto-excluding **/.*
+2025-03-24 10:20:16.163 [info] [Info  - 10:20:16 AM] (4143) Assuming Python version 3.13.2.final.0
+2025-03-24 10:20:16.268 [info] [Info  - 10:20:16 AM] (4143) Found 14 source files
+2025-03-24 10:20:16.786 [info] [Info  - 10:20:16 AM] (4143) Background analysis(1) root directory: file:///home/gabrieu/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist
+2025-03-24 10:20:16.788 [info] [Info  - 10:20:16 AM] (4143) Background analysis(1) started
+2025-03-24 10:20:16.955 [info] [Info  - 10:20:16 AM] (4143) Indexer background runner(2) root directory: file:///home/gabrieu/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist (index)
+2025-03-24 10:20:16.955 [info] [Info  - 10:20:16 AM] (4143) Indexing(2) started
+2025-03-24 10:20:17.519 [info] [Info  - 10:20:17 AM] (4143) scanned(2) 68 files over 1 exec env
+2025-03-24 10:20:17.682 [info] [Info  - 10:20:17 AM] (4143) indexed(2) 68 files over 1 exec env
+2025-03-24 10:20:17.710 [info] [Info  - 10:20:17 AM] (4143) Indexing finished(2).

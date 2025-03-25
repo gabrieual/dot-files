@@ -1,0 +1,34 @@
+2025-03-24 10:20:15.643 [info] [main] Log level: Info
+2025-03-24 10:20:15.643 [info] [main] Validating found git in: "git"
+2025-03-24 10:20:15.643 [info] [main] Using git "2.49.0" from "git"
+2025-03-24 10:20:15.643 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-24 10:20:15.643 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-24 10:20:15.643 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-03-24 10:20:15.643 [info] [Model][openRepository] Opened repository: /home/gabrieu/Workstation/culinarIA
+2025-03-24 10:20:15.670 [info] > git rev-parse --show-toplevel [10ms]
+2025-03-24 10:20:15.670 [info] > git config --get commit.template [18ms]
+2025-03-24 10:20:15.702 [info] > git rev-parse --show-toplevel [22ms]
+2025-03-24 10:20:15.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-03-24 10:20:15.718 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-24 10:20:15.761 [info] > git status -z -uall [11ms]
+2025-03-24 10:20:15.762 [info] > git rev-parse --show-toplevel [36ms]
+2025-03-24 10:20:15.780 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2025-03-24 10:20:15.817 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-03-24 10:20:15.826 [info] > git rev-parse --show-toplevel [49ms]
+2025-03-24 10:20:15.846 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2025-03-24 10:20:15.854 [info] > git config --get commit.template [38ms]
+2025-03-24 10:20:15.855 [info] > git rev-parse --show-toplevel [19ms]
+2025-03-24 10:20:15.857 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-24 10:20:15.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-03-24 10:20:15.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-03-24 10:20:15.887 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-03-24 10:20:15.897 [info] > git diff --name-status -z --diff-filter=ADMR 87481a8b79e10d748e77bb400e8e11daff5fa436...refs/remotes/origin/main [2ms]
+2025-03-24 10:20:15.918 [info] > git status -z -uall [13ms]
+2025-03-24 10:20:15.933 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2025-03-24 10:20:16.143 [info] > git show --textconv :app/blueprints/menu/menu.py [12ms]
+2025-03-24 10:20:16.151 [info] > git ls-files --stage -- /home/gabrieu/Workstation/culinarIA/app/blueprints/menu/menu.py [9ms]
+2025-03-24 10:20:16.163 [info] > git cat-file -s 770346251f41e9aee682d2983956e4eba9804212 [2ms]
+2025-03-24 10:20:16.184 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-24 10:20:16.273 [info] > git blame --root --incremental 87481a8b79e10d748e77bb400e8e11daff5fa436 -- /home/gabrieu/Workstation/culinarIA/app/blueprints/menu/menu.py [41ms]
+2025-03-24 10:20:49.071 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-24 10:20:49.071 [info] fatal: not a git repository (or any of the parent directories): .git
