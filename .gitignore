@@ -10,6 +10,7 @@
 /vlc/
 /nextjs-nodejs/
 *.log
+*.bak
 /create-next-app-nodejs/
 baloofileinformationrcashrc
 ktrashrc

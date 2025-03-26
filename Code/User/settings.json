@@ -9,5 +9,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "window.customTitleBarVisibility": "auto",
     "workbench.activityBar.location": "top",
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay"
 }
