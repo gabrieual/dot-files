@@ -1,0 +1,13 @@
+{
+    "window.commandCenter": true,
+    "editor.fontFamily": "'JetbrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.dropIntoEditor.preferences": [
+
+    ],
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right"
+}
