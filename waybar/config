@@ -1,54 +1,85 @@
 {
     "height" : 28,
+    "margin-right":4,
+    "margin-top":3,
+
     "modules-left": [
-      "hyprland/window"
+        "hyprland/workspaces",
+        "mpris"
     ],
+
     "modules-center": [
-      "hyprland/workspaces",
+        "hyprland/window"
     ],
+
     "modules-right": [
-    "pulseaudio",
-    "network",
-    "memory",
-    "battery",
-    "clock",
+        "pulseaudio",
+        "network",
+        "memory",
+        "battery",
+        "clock",
+        "custom/powermenu"
     ],
+
     "hyprland/window": {
       "format": "{}",
+      "on-empty": "hidden",
+      "tooltip": false,
       "max-length": 50,
-      "rewrite": {
-        "": " "
-      },
-      "separate-outputs": true
     },
+    
     "hyprland/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
-      "format-icons": {
-        "active": " ",
-      },
+      //"format-icons": {
+      //  "active": "",
+      //},
       "sort-by-number": true,
       "persistent-workspaces": {
         "*": 4, // 5 workspaces by default on every monitor
         "HDMI-A-1": 3 // but only three on HDMI-A-1
       },
     },
+
+
+    "mpris": {
+      "format": " {status_icon} {dynamic}",
+      "interval": 0.5,
+      "dynamic-len": 40,
+	    "status-icons": {
+		    "playing": "⏸",
+		    "paused": "▶",
+		    "stopped": ""
+	      },
+	    "dynamic-order": ["title", "artist"],
+    },
+
+
     "clock": {
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
       "format-alt": "{:%Y-%m-%d}"
     },
+
+
     "cpu": {
-      "format": "  {usage}%",
+      "format": " {usage}%",
       "tooltip": false
     },
+
+
     "memory": {
-      "format": "  {}%"
+      "format": "  {}%",
+      "on-click": "kitty -- btop"
     },
+
+
     "temperature": {
       "critical-threshold": 80,
       "format": "{icon} {temperatureC}°C",
       "format-icons": ["", "", ""]
     },
+
+
     "battery": {
       "states": {
         "warning": 30,
@@ -56,24 +87,28 @@
       },
       "format": "{icon}  {capacity}%",
       "format-full": "{icon}  {capacity}%",
-      "format-charging": "  {capacity}%",
+      "format-charging": "󱐋 {capacity}%",
       "format-plugged": "  {capacity}%",
       "format-alt": "{time} {icon}",
       "format-icons": ["", "", "", "", ""]
     },
+
+
     "network": {
       "format-wifi": "  {essid}",
       "format-ethernet": "{cidr} ",
       "tooltip-format": "{ifname} via {gwaddr} ",
       "format-linked": "{ifname} (No IP) ",
-      "format-disconnected": " ⚠ ",
-      "format-alt": "  {signalStrength}%"
+      "format-disconnected": " ⚠ No connection",
+      "on-click": "kitty -- nmtui"
     },
+
+
     "pulseaudio": {
       "format": "{icon}  {volume}%",
       "format-bluetooth": "{volume}% {icon} {format_source}",
-      "format-bluetooth-muted": " {icon} {format_source}",
-      "format-muted": "",
+      "format-bluetooth-muted": "󰝟 {icon} {format_source}",
+      "format-muted": "",
       "format-icons": {
         "headphone": "",
         "hands-free": "",
@@ -85,4 +120,10 @@
       },
       "on-click": "pavucontrol"
     },
+
+    "custom/powermenu": {
+      "format": "",
+      "on-click": "$HOME/.config/rofi/powermenu/type-1/powermenu.sh",
+      "tooltip":false,
+    }
 }

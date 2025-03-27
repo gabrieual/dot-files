@@ -1,15 +1,29 @@
 @import "gruvbox.css";
 
 * {
-  font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "JetBrainsMono Nerd Font";
   font-size: 12px;
   font-weight: 700;
 }
-
 window#waybar {
+  border-radius: 13px;
   background: transparent;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.0;
+}
+
+window#waybar.empty #window {
+  background: none;
+  opacity: 0;
+}
+
+#window {
+  font-weight: bold;
+  border-radius: 13px;
+  transition: none;
+  color: #fbf1c7;
 }
 
 button {
@@ -28,7 +42,13 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-  background-color: @surface2;
+  background-color: @bg0;
+}
+
+#workspaces{
+  background-color: @bg0;
+  border-radius: 13px;
+  padding: 0 12px;
 }
 
 #workspaces button {
@@ -37,28 +57,28 @@ button:hover {
   color: @white;
 }
 
-#workspaces button.active {
-  color: @green;
-}
-
 #workspaces button:hover {
   background: rgba(0, 0, 0, 0.2);
 }
 
 #workspaces button.focused {
+  color: @bg0;
   background-color: @bright_blue;
   box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
   background-color: #eb4d4b;
+  color: @bg0;
 }
 
-#mode {
-  background-color: #64727D;
-  box-shadow: inset 0 -3px #ffffff;
+#workspaces button.active {
+  color: @bg0;
+  background-color: @green;
 }
 
+#mpris,
+#custom-powermenu,
 #clock,
 #battery,
 #cpu,
@@ -69,17 +89,36 @@ button:hover {
   padding: 0 10px;
 }
 
+#mpris,
 #pulseaudio,
 #network,
 #temperature,
 #battery,
-#memory ,
+#memory,
 #clock{
+  background-color: @bg0;
   color: @white;
 }
 
-#window {
+#pulseaudio {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  padding-left: 18px
+}
+
+#clock{
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  padding-right: 18px
+}
+
+
+#custom-powermenu{
   color: @white;
+  background-color: @red;
+  border-radius: 13px;
+  margin-left: 3px;
+  padding-right: 13px;
 }
 
 .modules-right,
@@ -87,46 +126,52 @@ button:hover {
 .modules-center {
   background-color: @bg0;
   border-radius: 13px;
-  margin-top: 3px;
 }
 
 .modules-right {
-  padding: 0 10px;
-  margin-right: 4px;
+  padding: 0 4px;
+  background-color: transparent;
 }
 
 .modules-left {
-  padding: 0 12px;
-  margin-left: 4px;
+  padding: 0 4px;
+  background-color: transparent
 }
 
 .modules-center {
   padding: 0 10px;
 }
 
-#battery.charging,
-#battery.plugged {
-  color: @white;
+#mpris{
+  background-color: @yellow;
+  color: @bg0;
+  border-radius: 13px;
+  margin-left: 3px
+}
+
+#battery.charging{
+  color: @bg0;
+  background-color: @green;
+}
+
+#battery{
+  border-radius: 1px;
 }
 
 @keyframes blink {
   to {
-    color: #000000;
+    color: @white;
   }
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
   background-color: @red;
-  color: @fg0;
+  color: @red;
   animation-name: blink;
-  animation-duration: 0.5s;
+  animation-duration: 0.6s;
   animation-timing-function: steps(12);
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
-#pulseaudio.muted {
-  font-weight: 900;
-  color: @bright_red;
-}
