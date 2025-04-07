@@ -4,7 +4,11 @@ if ! pgrep -x swaylock >/dev/null; then
   swaylock &
 fi
 
-if [ "$(pgrep -x swayidle | wc -l)" -lt 2 ]; then
+if upower -i $(upower -e | grep 'line_power') | grep -q "online:\s*yes"; then
+  # swayidle timeout 30 "hyprctl dispatch dpms off" resume "hyprctl dispatch dpms on" & # wait 30 sec after lock to turn off the monitor
+  swayidle timeout 20 "systemctl suspend" & # wait 20 sec after lock to suspend
+  SWAYIDLE_PID=$!
+else
   swayidle timeout 20 "systemctl suspend" & # wait 20 sec after lock to suspend
   SWAYIDLE_PID=$!
 fi
