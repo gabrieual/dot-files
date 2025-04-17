@@ -59,7 +59,7 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/.config/hypr/backgrounds/chinese-hills.jpg", height);
+    background-image:            url("~/.config/hypr/backgrounds/drawing.jpg", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }

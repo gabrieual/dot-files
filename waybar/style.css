@@ -32,7 +32,7 @@ window#waybar.empty #window {
 #mpris,
 #workspaces,
 #custom-powermenu{
-  box-shadow: 2px 2px 1px #111111;
+  box-shadow: 2px 2px 1px @bg0_hard;
   background-color: @bg0;
   border-radius: 5px;
   color: @fg0;
@@ -64,14 +64,18 @@ window#waybar.empty #window {
 }
 
 #workspaces button {
+  margin-right: 4px;
+  background-color: @bg0;
+  box-shadow: 2px 2px 1px @bg0_hard;
   padding: 0 5px;
   color: @fg0;
 }
 
-#workspaces button:hover {
-  background: inherit;
 
-  background: rgba(0, 0, 0, 0.2);
+#workspaces button.empty:hover, #workspaces button:hover{
+  background: inherit;
+  background: rgba(152, 151, 26, 0.5);
+  box-shadow: 2px 2px 1px rgba(115, 115, 12, 0.4);
 }
 
 #workspaces button.focused {
@@ -87,10 +91,13 @@ window#waybar.empty #window {
   box-shadow: 2px 2px 1px rgb(141, 24, 20);
 }
 
-#workspaces button.empty{  
-  background: inherit;
-  box-shadow: none;
+
+#workspaces button.empty {
+  color: @fg0;
+  background-color: transparent;
+  box-shadow: None;
 }
+
 
 #workspaces button.active {
   box-shadow: 2px 2px 1px rgb(115, 115, 12);

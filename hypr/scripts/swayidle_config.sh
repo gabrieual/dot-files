@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if ! pgrep -x swaylock >/dev/null; then
-  swaylock &
+if ! pgrep -x hyprlock >/dev/null; then
+  hyprlock &
 fi
 
 if upower -i $(upower -e | grep 'line_power') | grep -q "online:\s*yes"; then

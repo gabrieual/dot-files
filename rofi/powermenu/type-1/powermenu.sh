@@ -15,7 +15,7 @@ theme='style-1'
 
 # CMDs
 uptime="$(uptime -p | sed -e 's/up //g')"
-host="$(hostname)"
+# host="$USER"
 
 # Options
 shutdown=' Shutdown'
@@ -28,8 +28,7 @@ no=' No'
 
 # Rofi CMD
 rofi_cmd() {
-  rofi -dmenu \
-    -p "$host" \
+  rofi -dmenu \ # -p "$host" \
     -mesg "Uptime: $uptime" \
     -theme ${dir}/${theme}.rasi
 }
@@ -70,7 +69,9 @@ run_cmd() {
       amixer set Master mute
       systemctl suspend
     elif [[ $1 == '--logout' ]]; then
-      if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
+      if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+        hyprctl dispatch exit
+      elif [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
         openbox --exit
       elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
         bspc quit
@@ -78,8 +79,6 @@ run_cmd() {
         i3-msg exit
       elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
         qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-      else
-        hyprctl dispatch exit
       fi
     fi
   else
