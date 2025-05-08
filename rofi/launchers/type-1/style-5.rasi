@@ -9,10 +9,8 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,filebrowser";
+	modi:                       "drun";
     show-icons:                 true;
-    display-drun:               "";
-    display-filebrowser:        "";
 }
 
 /*****----- Global Properties -----*****/
@@ -52,7 +50,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       600px;
+    width:                       500px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -61,7 +59,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               10px;
+    border-radius:               8px;
     border-color:                @border-colour;
     cursor:                      "default";
     /* Backgroud Colors */
@@ -81,7 +79,7 @@ mainbox {
     enabled:                     true;
     spacing:                     10px;
     margin:                      0px;
-    padding:                     30px;
+    padding:                     15px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
@@ -100,7 +98,7 @@ inputbar {
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;
-    children:                    [ "textbox-prompt-colon", "entry", "mode-switcher" ];
+    children:                    [ "textbox-prompt-colon", "entry"];
 }
 
 prompt {
@@ -110,7 +108,7 @@ prompt {
 }
 textbox-prompt-colon {
     enabled:                     true;
-    padding:                     5px 10px;
+    padding:                     5px 6px;
     expand:                      false;
     str:                         "";
     background-color:            inherit;
@@ -154,7 +152,7 @@ case-indicator {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       8;
+    lines:                       6;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   true;
@@ -176,7 +174,7 @@ listview {
 scrollbar {
     handle-width:                5px ;
     handle-color:                @handle-colour;
-    border-radius:               10px;
+    border-radius:               8px;
     background-color:            @alternate-background;
 }
 
@@ -185,16 +183,16 @@ element {
     enabled:                     true;
     spacing:                     10px;
     margin:                      0px;
-    padding:                     5px 10px;
+    padding:                     3px 10px;
     border:                      0px solid;
-    border-radius:               10px;
+    border-radius:               8px;
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            var(normal-background);
+    background-color:            #28282800;
     text-color:                  var(normal-foreground);
 }
 element normal.urgent {
@@ -218,7 +216,7 @@ element selected.active {
     text-color:                  var(selected-active-foreground);
 }
 element alternate.normal {
-    background-color:            var(alternate-normal-background);
+    background-color:            #28282800;
     text-color:                  var(alternate-normal-foreground);
 }
 element alternate.urgent {
@@ -230,7 +228,7 @@ element alternate.active {
     text-color:                  var(alternate-active-foreground);
 }
 element-icon {
-    background-color:            transparent;
+    background-color:            #ffffff00;
     text-color:                  inherit;
     size:                        24px;
     cursor:                      inherit;
@@ -259,7 +257,7 @@ mode-switcher{
 button {
     padding:                     5px 10px;
     border:                      0px solid;
-    border-radius:               10px;
+    border-radius:               8px;
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  inherit;
@@ -282,9 +280,9 @@ message {
     text-color:                  @foreground-colour;
 }
 textbox {
-    padding:                     8px 10px;
+    padding:                     5px 10px;
     border:                      0px solid;
-    border-radius:               10px;
+    border-radius:               8px;
     border-color:                @border-colour;
     background-color:            @alternate-background;
     text-color:                  @foreground-colour;
@@ -296,9 +294,9 @@ textbox {
     markup:                      true;
 }
 error-message {
-    padding:                     10px;
+    padding:                     6px;
     border:                      2px solid;
-    border-radius:               10px;
+    border-radius:               8px;
     border-color:                @border-colour;
     background-color:            @background-colour;
     text-color:                  @foreground-colour;

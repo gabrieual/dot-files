@@ -1,10 +1,10 @@
 {
     "height": 0,
-    //"position": "left",
-    "margin-left":8,
-    "margin-right":8,
-    "margin-bottom":-8,
-    "margin-top":0,
+    "position": "left",
+    "margin-left":4,
+    "margin-right":-8,
+    "margin-bottom":6,
+    "margin-top":6,
 
     "modules-left": [
         "hyprland/workspaces",
@@ -63,19 +63,20 @@
 
 
     "clock": {
+      "format": "{:%H\n%M}",
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-      "format-alt": "{:%Y-%m-%d}"
+      "format-alt": "{:%Y\n --\n %m\n --\n %d}"
     },
 
 
     "cpu": {
       "format": " {usage}%",
       "tooltip": false
-    },
+    }
 
 
     "memory": {
-      "format": "  {}%",
+      "format": " \n{}%",
       "on-click": "kitty -- btop",
       "interval": 5
     },
@@ -83,7 +84,7 @@
 
     "temperature": {
       "critical-threshold": 70,
-      "format": "{icon} {temperatureC}°C",
+      "format": " {icon}\n{temperatureC}°C",
       "format-icons": ["", "", ""]
     },
 
@@ -93,17 +94,17 @@
         "warning": 30,
         "critical": 15
       },
-      "format": "{icon}  {capacity}%",
-      "format-full": "{icon}  {capacity}%",
-      "format-charging": "󱐋 {capacity}%",
-      "format-plugged": " {capacity}%",
+      "format": "{icon}\n{capacity}%",
+      "format-full": "{icon}\n{capacity}%",
+      "format-charging": "󱐋\n{capacity}%",
+      "format-plugged": "\n{capacity}%",
       "format-alt": "{icon} {time}",
       "format-icons": ["", "", "", "", ""]
     },
 
 
     "network": {
-      "format-wifi": "{icon}  {essid}",
+      "format-wifi": "{icon}",
       "format-ethernet": "{cidr} 󰈁",
       "tooltip-format": "{ifname} via {gwaddr} 󰈁",
       "format-linked": "{ifname} (No IP) 󰈁",
@@ -115,14 +116,11 @@
 
 
     "pulseaudio": {
-      "format": "{icon} {volume}%",
+      "format": " {icon}\n{volume}%",
       "format-bluetooth": "{volume}% {icon} {format_source}",
       "format-bluetooth-muted": "󰝟 {icon} {format_source}",
       "format-muted": " ",
       "format-icons": {
-        "headphone": " ",
-        "hands-free": "",
-        "headset": " ",
         "phone": "",
         "portable": "",
         "car": "",

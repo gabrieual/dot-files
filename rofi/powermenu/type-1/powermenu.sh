@@ -101,7 +101,7 @@ $lock)
   elif [[ -x '/usr/bin/i3lock' ]]; then
     i3lock
   else
-    "$HOME/.config/hypr/scripts/swayidle_config.sh"
+    "$HOME/.scripts/idle.sh"
   fi
   ;;
 $suspend)

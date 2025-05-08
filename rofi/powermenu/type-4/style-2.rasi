@@ -9,30 +9,30 @@
 
 /*****----- Configuration -----*****/
 configuration {
-    show-icons:                 false;
+    show-icons: false;
 }
 
-/*****----- Global Properties -----*****/
+/*****----- Gruvbox Dark Palette -----*****/
+/* Base colors */
 * {
-    /* Resolution : 1920x1080 */
+    background-window:           #28282897;         /* dark0 */
+    background-normal:           #282828;         /* dark1 */
+    background-selected:         #98971a;         /* dark2 */
+    foreground-normal:           #ebdbb2;         /* light1 */
+    foreground-selected:         #fbf1c7;         /* yellow (for highlights) */
+
     mainbox-spacing:             100px;
-    mainbox-margin:              150px 400px;
-    message-margin:              0px 350px;
+    mainbox-margin:              100px 400px;
+    message-margin:              0px 0px;
     message-padding:             15px;
-    message-border-radius:       15px;
+    message-border-radius:       100px;
     listview-spacing:            50px;
     element-padding:             35px 40px;
-    element-border-radius:       20px;
+    element-border-radius:       8px;
 
-    prompt-font:                 "Iosevka Nerd Font Bold 72";
-    textbox-font:                "Iosevka Nerd Font 14";
-    element-text-font:           "feather 64";
-
-    background-window:           black/30%;
-    background-normal:           white/5%;
-    background-selected:         white/15%;
-    foreground-normal:           white;
-    foreground-selected:         white;
+    prompt-font:                 "Jetbrains Nerd Font Bold 72";
+    textbox-font:                "feather 14";
+    element-text-font:           "feather 20";
 }
 
 /*****----- Main Window -----*****/
@@ -51,7 +51,7 @@ mainbox {
     spacing:                     var(mainbox-spacing);
     margin:                      var(mainbox-margin);
     background-color:            transparent;
-    children:                    [ "dummy", "inputbar", "listview", "message", "dummy" ];
+    children:                    [ "dummy", "inputbar", "listview", "dummy" ];
 }
 
 /*****----- Inputbar -----*****/
@@ -80,6 +80,7 @@ message {
     border-radius:               var(message-border-radius);
     background-color:            var(background-normal);
     text-color:                  var(foreground-normal);
+    width:                       300px;
 }
 textbox {
     font:                        var(textbox-font);
@@ -129,3 +130,4 @@ element selected.normal {
     background-color:            var(background-selected);
     text-color:                  var(foreground-selected);
 }
+

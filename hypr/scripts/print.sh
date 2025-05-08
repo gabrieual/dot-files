@@ -9,4 +9,4 @@ mkdir -p "$DIR"
 grim -g "$(slurp)" "$FILEPATH"
 wl-copy <"$FILEPATH"
 
-notify-send "Screenshot taked!" "Saved in $DIR and copied to clipboard." --icon=dialog-information
+notify-send -u low -i camera-photo "Screenshot taked!" "Saved in $DIR and copied to clipboard."

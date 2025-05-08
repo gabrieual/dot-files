@@ -6,7 +6,7 @@
   font-weight: 700;
 }
 window#waybar {
-  background: None;
+  background: rgba(40,40,40,0.8);
 }
 
 window#waybar.empty #window {
@@ -31,60 +31,40 @@ window#waybar.empty #window {
 #mpris,
 #workspaces,
 #custom-powermenu{
-  background-color: rgba(40, 40, 40, 1);
-  border-radius: 8px;
-  color: @fg0;
-  margin:2px;
-  margin-top:4px;
-  margin-bottom: 4px;
   padding: 0 12px;
-
+  color: @fg0;
 }
 
 #clock{
-  background-color: transparent;
   color: @fg0;
-  font-size: 14px;
-  font-family: none;
 }
 
 #custom-powermenu{
-  background-color: @red;
-  padding-left: 8px;
-  padding-right: 11px;
-  color: @fg0;
-  margin-right: 0px;
+  color: @bright_red;
+  margin-right: 18px;
 }
 
-.modules-right,
-.modules-left,
-.modules-center {
-  background-color: transparent
-}
+
 
 
 #workspaces {
-  padding: 0 0;
-  margin-left: 0px;
+  margin-left: 8px;
   background-color: transparent;
 }
 
 #workspaces button {
   margin-right: 4px;
-  background-color: rgba(40, 40, 40, 0.4);
-  padding: 0 5px;
   color: @fg0;
+  padding: 0 5px;
 }
 
 
 #workspaces button.empty:hover, #workspaces button:hover{
   background: inherit;
-  background: rgba(152, 151, 26, 0.5);
 }
 
 #workspaces button.focused {
   color: @bg0;
-  background-color: @bright_blue;
 }
 
 #workspaces button.urgent {
@@ -93,26 +73,25 @@ window#waybar.empty #window {
 
 
 #workspaces button.empty {
-  color: @fg3;
+  color: @fg4;
   background-color: transparent;
 }
 
 
 #workspaces button.active {
-  background-color: @green;
-  color: @bg0;
+  color: @bright_green;
+  border-bottom: 2px solid @green;
 }
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */
   /* Avoid rounded borders under each button name */
+  border-radius: 0px;
   border: none;
-  border-radius: 8px;
 }
 
 #mpris{
-  background-color: @yellow;
-  color: @bg0;
+  color: @bright_yellow;
 }
 
 #battery.charging{
