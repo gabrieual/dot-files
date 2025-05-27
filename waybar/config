@@ -1,9 +1,10 @@
 {
     "height": 0,
     //"position": "left",
-    "margin-left":8,
-    "margin-right":8,
-    "margin-bottom":-8,
+    //"position": "bottom",
+    "margin-left":0,
+    "margin-right":0,
+    "margin-bottom":-2,
     "margin-top":0,
 
     "modules-left": [
@@ -12,7 +13,7 @@
     ],
 
     "modules-center": [
-        "clock"
+        "clock", 
     ],
 
     "modules-right": [
@@ -21,7 +22,6 @@
         "memory",
         "temperature",
         "battery",
-        "custom/powermenu"
     ],
 
     "hyprland/window": {
@@ -82,7 +82,7 @@
 
 
     "temperature": {
-      "critical-threshold": 70,
+      "critical-threshold": 75,
       "format": "{icon} {temperatureC}°C",
       "format-icons": ["", "", ""]
     },

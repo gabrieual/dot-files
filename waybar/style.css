@@ -5,8 +5,9 @@
   font-size: 12px;
   font-weight: 700;
 }
+
 window#waybar {
-  background: None;
+  background: rgba(40,40,40,1);
 }
 
 window#waybar.empty #window {
@@ -29,96 +30,53 @@ window#waybar.empty #window {
 #memory,
 #clock,
 #mpris,
-#workspaces,
 #custom-powermenu{
-  background-color: rgba(40, 40, 40, 1);
-  border-radius: 8px;
-  color: @fg0;
-  margin:2px;
-  margin-top:4px;
-  margin-bottom: 4px;
   padding: 0 12px;
-
+  color: @fg1;
 }
 
 #clock{
-  background-color: transparent;
-  color: @fg0;
-  font-size: 14px;
-  font-family: none;
+  font-family: "";
 }
 
-#custom-powermenu{
-  background-color: @red;
-  padding-left: 8px;
-  padding-right: 11px;
-  color: @fg0;
-  margin-right: 0px;
+#battery{
+  margin-right: 8px;
 }
-
-.modules-right,
-.modules-left,
-.modules-center {
-  background-color: transparent
-}
-
 
 #workspaces {
-  padding: 0 0;
-  margin-left: 0px;
-  background-color: transparent;
-}
-
-#workspaces button {
-  margin-right: 4px;
-  background-color: rgba(40, 40, 40, 0.4);
-  padding: 0 5px;
-  color: @fg0;
-}
-
-
-#workspaces button.empty:hover, #workspaces button:hover{
-  background: inherit;
-  background: rgba(152, 151, 26, 0.5);
-}
-
-#workspaces button.focused {
-  color: @bg0;
-  background-color: @bright_blue;
-}
-
-#workspaces button.urgent {
-  background-color: @red;
-}
-
-
-#workspaces button.empty {
-  color: @fg3;
-  background-color: transparent;
-}
-
-
-#workspaces button.active {
-  background-color: @green;
-  color: @bg0;
+  margin-left: 16px;
 }
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */
   /* Avoid rounded borders under each button name */
-  border: none;
-  border-radius: 8px;
+  border-radius: 0;
+  padding: 0;
+}
+
+#workspaces button {
+  color: @fg1;
+  padding: 0 2px;
+  min-height: 0;
+  border-bottom: 2px solid transparent;
+}
+
+#workspaces button.empty {
+  color: @bg4;
+}
+
+#workspaces button.active {
+  color: @green;
+  border-bottom: 2px solid @green;
 }
 
 #mpris{
-  background-color: @yellow;
-  color: @bg0;
+  color: @yellow;
 }
 
 #battery.charging{
-  color: @bright_green;
+  color: @green;
 }
-
 
 @keyframes blink {
   to {
