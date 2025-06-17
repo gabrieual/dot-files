@@ -92,11 +92,14 @@ $reboot)
   run_cmd --reboot
   ;;
 $lock)
-  if [[ -x '/usr/bin/betterlockscreen' ]]; then
+  if [[ -x '/usr/bin/hyprlock' ]]; then
+    .scripts/idle.sh
+  elif [[ -x '/usr/bin/betterlockscreen' ]]; then
     betterlockscreen -l
   elif [[ -x '/usr/bin/i3lock' ]]; then
     i3lock
   fi
+
   ;;
 $suspend)
   run_cmd --suspend
