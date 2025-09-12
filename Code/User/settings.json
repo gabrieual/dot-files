@@ -1,14 +1,28 @@
 {
-    "window.commandCenter": true,
+    "window.commandCenter": false,
     "editor.fontFamily": "'JetbrainsMono Nerd Font', 'monospace', monospace",
     "editor.fontLigatures": true,
     "editor.dropIntoEditor.preferences": [
 
     ],
-    "workbench.colorTheme": "Gruvbox Dark Medium",
     "workbench.iconTheme": "material-icon-theme",
-    "window.customTitleBarVisibility": "auto",
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "python.languageServer": "Default",
+    "json.schemas": [
+
+    ],
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.renderWhitespace": "none",
+    "editor.stickyScroll.enabled": false,
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "auto",
+    "haskell.manageHLS": "GHCup",
+
 }

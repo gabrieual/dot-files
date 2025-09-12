@@ -1,10 +1,10 @@
 {
     "height": 0,
     "position": "left",
-    "margin-left":4,
-    "margin-right":-8,
-    "margin-bottom":6,
-    "margin-top":6,
+    "margin-left":0,
+    "margin-right":0,
+    "margin-bottom":0,
+    "margin-top":0,
 
     "modules-left": [
         "hyprland/workspaces",
@@ -72,7 +72,7 @@
     "cpu": {
       "format": " {usage}%",
       "tooltip": false
-    }
+    },
 
 
     "memory": {

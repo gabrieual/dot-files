@@ -8,6 +8,11 @@
 /torbrowser/
 /pulse/
 /vlc/
+/VeraCrypt/
+/go/
+/Electron/
+/VirtualBox/
+/YouTube Music/
 /nextjs-nodejs/
 *.log
 *.bak
@@ -19,3 +24,7 @@ kdeglobals
 kiorc
 baloofileinformationrc
 kservicemenurc
+user-dirs.dirs
+user-dirs.localede.org
+user-dirs.locale
+trashrc
