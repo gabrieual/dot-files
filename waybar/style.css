@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: rgba(40,40,40,1);
+  background: rgba(40,40,40,0.9);
 }
 
 window#waybar.empty #window {
@@ -59,6 +59,7 @@ button {
   padding: 0 2px;
   min-height: 0;
   border-bottom: 2px solid transparent;
+  transition: 0.3s;
 }
 
 #workspaces button.empty {
@@ -70,8 +71,22 @@ button {
   border-bottom: 2px solid @green;
 }
 
+#workspaces button:hover {
+  background-color: @green;
+  color:@fg1;
+  border-bottom: 2px solid @green;
+}
+
 #mpris{
+  padding: 0 6px;
+  margin-left: 6px;
   color: @yellow;
+  transition: 0.3s;
+}
+
+#mpris:hover{
+  background-color: @yellow;
+  color: @bg0;
 }
 
 #battery.charging{
