@@ -93,7 +93,7 @@ $reboot)
   ;;
 $lock)
   if [[ -x '/usr/bin/hyprlock' ]]; then
-    .scripts/idle.sh
+    ~/.config/.scripts/lock.sh
   elif [[ -x '/usr/bin/betterlockscreen' ]]; then
     betterlockscreen -l
   elif [[ -x '/usr/bin/i3lock' ]]; then

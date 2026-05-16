@@ -110,7 +110,7 @@
       "format-disconnected": "",
       "max-length": 11,
       "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-      "on-click": "kitty -- nmtui"
+      "on-click": "kitty -- impala"
     },
 
 
