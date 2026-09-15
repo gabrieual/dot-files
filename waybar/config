@@ -50,7 +50,6 @@
 
     "mpris": {
       "format": "󰎇 {status_icon} {dynamic}",
-      "interval": 0.5,
       "dynamic-len": 43,
 	    "status-icons": {
 		    "playing": "⏸",
