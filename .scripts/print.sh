@@ -8,7 +8,7 @@ NAME="screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png"
 
 FILENAME="$DIR/$NAME"
 
-grim -s 1 -g "$(slurp)" "$FILENAME"
+grim -s 1 -g "$(slurp -w 0)" "$FILENAME"
 
 cat "$FILENAME" | wl-copy
 
